@@ -5,7 +5,7 @@ export const AddCategory = ( {setCategories} ) => {
     const [newCategory, setNewCategory] = useState('')
     const handleOnSubmit = (e) => {
         e.preventDefault();
-        if (newCategory.trim().length > 0) {
+        if (newCategory.trim().length > 2) {
             setCategories( cats => [newCategory, ...cats]);
             setNewCategory('');
         }
@@ -17,7 +17,7 @@ export const AddCategory = ( {setCategories} ) => {
     }
     return (
         <form onSubmit={handleOnSubmit}>
-            <input type = "text" value={newCategory} onChange={handleOnChange}/> 
+            <input type = "text" value={newCategory} onChange={handleOnChange} placeholder="Escriba más de 3 letras y enter"/> 
         </form>
     )
 }

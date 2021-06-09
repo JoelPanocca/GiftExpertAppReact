@@ -4,12 +4,12 @@ import { GifGrid } from "./components/GifGrid";
 
 export const GifExpertApp = () => {
   const [categories, setCategories] = useState([
-    "One Punch"
+    "Saitama"
   ]);
 
   return (
     <>
-      <h2> GifExpert App</h2>
+      <h2> Buscador de GIFs APP - Panoquex </h2>
       
       <AddCategory setCategories = {setCategories}/>
       <hr />
