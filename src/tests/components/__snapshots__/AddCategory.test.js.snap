@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas en el componente <AddCategory /> El componente debe mostrarse segun su snapshot 1`] = `
+<form
+  onSubmit={[Function]}
+>
+  <p>
+     
+     
+  </p>
+  <input
+    onChange={[Function]}
+    placeholder="Escriba más de 3 letras y enter"
+    type="text"
+    value=""
+  />
+</form>
+`;

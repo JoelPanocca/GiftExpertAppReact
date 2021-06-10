@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test para GifGrid ITEMS Debe evaluar correctamente contra su snapshot 1`] = `
+<div
+  className="card"
+>
+  <p>
+    Goku
+  </p>
+  <img
+    alt="Goku"
+    src="https://goku.com/img.jpg"
+  />
+</div>
+`;

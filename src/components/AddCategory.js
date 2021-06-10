@@ -17,6 +17,7 @@ export const AddCategory = ( {setCategories} ) => {
     }
     return (
         <form onSubmit={handleOnSubmit}>
+            <p> { newCategory } </p>
             <input type = "text" value={newCategory} onChange={handleOnChange} placeholder="Escriba más de 3 letras y enter"/> 
         </form>
     )
